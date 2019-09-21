@@ -39,7 +39,7 @@ social:
   - title: facebook
     url:
   - title: twitter
-    url:
+    url: http://twitter.com/OpusTheRobot
   - title: instagram
     url:
   - title: tumblr
@@ -48,10 +48,10 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
+    - 15 Westmorland Drive
+    - 6149, Perth
+    - Australia
+email: liam.chairman@allianceofdroids.org.au
 tel: +34 8493-4893
 
 
@@ -65,9 +65,9 @@ members:
     img: team01.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
+        url: liam.chairman@allianceofdroids.org.au
       - title: twitter
-        url: http://twitter.com/handle
+        url: http://twitter.com/OpusTheRobot
   - name: Paul Jameson
     position: Lead Designer
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -112,6 +112,6 @@ about: "I'm a freelance website developer, blogger and game developer"
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "I've built websites since I was 13 years old. After starting off with Wordpress & Drupal, I discovered Github and proceeded to Jekyll, Hugo and Bootstrap. I recently started gamedesign and I make games in Unity. I'm 16 and I hope to have a bright future in robotics and software engineering ahead of me."
+    author: Liam Arbuckle
+    position: WEB DESIGNER - ACORD Robotics
