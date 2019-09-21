@@ -1,8 +1,8 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Liam Arbuckle
+description: "I'm a freelance website developer, blogger and game developer"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/portfolio" #important: start with /
 url: "http://irisdroidology.github.io"
@@ -108,7 +108,7 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "I'm a freelance website developer, blogger and game developer"
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
