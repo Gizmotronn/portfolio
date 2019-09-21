@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
+title:  "Star Sailors"
 date:   2014-04-25 16:54:46
 author: Marcel Newman
 categories:
