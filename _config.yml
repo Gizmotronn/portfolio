@@ -59,9 +59,9 @@ tel: +34 8493-4893
 
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
+  - name: Liam Arbuckle
     position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: I'm a 16 year old developer. I have 3 years of experience with website and game development
     img: team01.jpg
     social:
       - title: envelope #use for email address
@@ -70,7 +70,7 @@ members:
         url: http://twitter.com/OpusTheRobot
   - name: Paul Jameson
     position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: Paul joined us 
     img: team02.jpg
     social:
       - title: envelope #use for email address
