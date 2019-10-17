@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Everton questions on Quora</title>
+    <title>How to learn to code</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -69,7 +69,7 @@
                     <ul class="breadcrumbs flex align-items-center">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="blog.html">Blog</a></li>
-                        <li>If Everton got relegated, who would stay?</li>
+                        <li>Learn how to code</li>
                     </ul><!-- .breadcrumbs -->
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -78,7 +78,7 @@
                 <div class="col-12">
                     <div class="featured-img">
                         <figure>
-                            <img src="images/richarlison.jpeg" alt="blog">
+                            <img src="images/learncode.jpg" alt="blog">
                         </figure>
                     </div><!-- .content-area -->
                 </div><!-- .col -->
@@ -90,19 +90,26 @@
                                 <a href="#">Football</a>
                             </div><!-- .meta-post -->
 
-                            <h1>If Everton got relegated, who would stay?</h1>
+                            <h1>How do I learn a coding language?</h1>
 
                             <span class="byline">by <span class="author"><a href="#">Liam Arbuckle</a></span></span>
                         </header><!-- .entry-header -->
 
                         <div class="entry-content">
                             <p>
-                                    I’d say players mostly past their prime. Siggy (Sigurddson, while he is my favourite player, is getting old) would fit into that category. He is a great attacking mid and has done some great work for us, but I’m not sure which clubs would be interested in him after the season he’s had so far in 2019/20. I know it’s not his fault, that the manager (Silva) is playing him and the team in an annoying 4.2.3.1 formation, but not many clubs would be willing to shell out for him, and he would probably know that it was an anomaly and we would probably get promoted again anyway. Pickford would go, he’s England’s keeper and would get out of that shit as soon as possible. Richarlison would go, we wouldn’t get much back for him and while he’s a good player, he smacks of disloyalty - when he first moved here he said how he wanted to be noticed by a big club like Barca and that would be his ticket out of Goodison. Digne might leave. Gomes & Bernard would likely stay, as they seem to think that we are building towards something great (I do too, maybe a cup run as well as a good league finish). Bernard isn’t getting a game in that #20 position right now so I think he would jump at the chance to play some first team football, and besides we’re a big club so even if we were relegated it would most likely be the best football he could get.
-                            </p>
+                                    Original Question: I want to learn computer programming for free. Who can help me?
 
-                            <p>
-                                    In short: I don’t know. Cenk Tosun may leave. Schneirderlin would be sold. He’s good, but does NOT fit into our lineup. He uses too much of our wage bill. The younger players that haven’t broken into the first team, like Davies, would most likely stay. But hopefully it won’t happen, and if it does Everton won’t go down without a fight.
-                            </p>                                    
+                                    There are always people that are able to help you learn programming. However, you need to carefully pick a language that you want to learn. There are many different languages you can choose from, here are a few good ones:
+                                    
+                                    Python. Python is a very easy-to-learn language that is used in many applications, from data science to web programming. Many job agencies require knowledge of Python. I’d definitely recommend learning Python first.
+                                    HTML. HTML may seem hard to learn at first, but if you make use of a good code editor it’s not too hard. I’d recommend learning CSS at the same time. Both are used for website design and are actively maintained.
+                                    C#. C#, like Python, is used in many areas but is very good for game design, an example of which would be Unity.
+                                    Now you need to figure out how you’re going to learn your chosen language. I’ll assume we’re using Python, however any language will work.
+                                    
+                                    I’d recommend watching video lectures, like the ones on Udemy, as they are usually good quality and include exercises that help you practice what you’ve just learnt. While most courses on Udemy are paid, there is a good amount that are free.
+                                    
+                                    Also check out youtube as well for specific tutorials
+                            </p>                                   
                             
 
                         </div><!-- .entry-content -->
@@ -114,17 +121,17 @@
                         <div class="posted-date">
                             <label>Date</label>
 
-                            <span class="date-format"><a href="#">October 14, 2019</a></span>
+                            <span class="date-format"><a href="#">December 20, 2018</a></span>
                         </div><!-- .posted-date -->
 
                         <div class="post-category">
                             <label>Category</label>
-                            <span><a href="#">Sports</a></span>
+                            <span><a href="#">Photography</a></span>
                         </div><!-- .post-category -->
 
                         <div class="posted-tags">
                             <label>tags</label>
-                            <span><a href="#">Football</a>, <a href="#">Everton</a>, <a href="#">Quora</a> </span>
+                            <span><a href="#">Photography</a>, <a href="#">nature</a>, <a href="#">hat</a> </span>
                         </div><!-- .entry-meta -->
 
                         <div class="post-share">
@@ -142,7 +149,7 @@
                 <div class="col-12 col-lg-7">
                     <div class="content-area">
                         <div class="post-comments">
-                            
+                            <h3 class="comments-title"><span class="comments-number">02 Comments</span></h3>
 
                             
 
