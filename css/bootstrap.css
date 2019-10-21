@@ -50,7 +50,7 @@
     content: " (" attr(title) ")";
   }
   pre {
-    white-space: pre-wrap !important;
+    white-space: pre-wrap !important; 
   }
   pre,
   blockquote {
