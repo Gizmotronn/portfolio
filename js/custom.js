@@ -1,222 +1,82 @@
-$(document).ready(function(){
-	
-	"use strict";
+/*-----------------------------------------------------------------------------------
+/*
+/* Custom JS
+/*
+-----------------------------------------------------------------------------------*/
 
-	//preloader
-    setTimeout(function() {
-            $('body').addClass('loaded');
-        }, 500);
-	
-					
-	//cbp-fw slider
-	$( function() {
-				$( '#cbp-fwslider' ).cbpFWSlider();
 
-			} );
-			
-    //cbp-fw slider2
-	$( function() {
-				$( '#cbp-fwslider2' ).cbpFWSlider();
-
-			} );
-				
-			
-	//smoothScroll
-	smoothScroll.init();
-	
-	//Sticky_nav 	
-			$(".navmenu").sticky({topSpacing:0});
-	
-	
-	//jQuery Counter
-    $('.counter').counterUp({
-        time : 3000
-    });
-	
-	
-	//Typed JS
-		$(document).ready(function(){
-			$("#typed").typed({
-				stringsElement: $('#typed-strings'),
-				typeSpeed: 100,
-				backDelay: 2500,
-				loop: true,
-				contentType: 'html',
-				loopCount: true
-			});
-		});
- 
-	//Text Rotate
-		$(".text-rotate").textrotator({
-		  animation: "flipUp",
-		  separator: ",",
-		  speed: 4000
-	});
-	
-	//0wl-caurosel
-	 $("#slider1").owlCarousel(
-	  {
-		loop:true,
-		margin:120,
-		nav:true,
-		dot:false,
-		lazyload:true,
-		slideSpeed:6000,
-		paginationSpeed:2000,
-		rewindSpeed:2000,	
-		navigation:true,
-		pagination:true,
-		autoplay:true,
-		autoplaySpeed:1500,
-		responsive:{
-			0:{
-				items:1,
-				margin:50
-			},
-			480:{
-				items:2,
-				margin:80
-			},
-			1000:{
-				items:2
-			}
-		}
-	}	  
-	  );   
-	
-	//slick slider
-	$('.item').slick({
-	  dots: true,
-	  arrows:false,
-	  infinite: false,
-	  speed: 1000,
-	  slidesToShow: 3,
-	  slidesToScroll: 2,
-	  responsive: [
-		{
-		  breakpoint: 1024,
-		  settings: {
-			slidesToShow: 3,
-			slidesToScroll: 2,
-			infinite: true,
-			dots: true
-		  }
-		},
-		{
-		  breakpoint: 600,
-		  settings: {
-			slidesToShow: 2,
-			slidesToScroll: 2
-		  }
-		},
-		{
-		  breakpoint: 480,
-		  settings: {
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			infinite: true
-		  }
-		}
- 	  ]
-    });
 		
-	   
-	// Isotope Gallery
+	  
+/* Start Document */
+jQuery(document).ready(function() {
 
-    var $grid = $('.grid').isotope({
 
-      itemSelector: '.grid-item',
+/*----------------------------------------------------*/
+/*	Back To Top Button
+/*----------------------------------------------------*/
+		var pxShow = 300;//height on which the button will show
+		var fadeInTime = 400;//how slow/fast you want the button to show
+		var fadeOutTime = 400;//how slow/fast you want the button to hide
+		var scrollSpeed = 400;//how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
 
-      percentPosition: true,
-
-      masonry: {
-
-        columnWidth : '.grid-item'
-
-      }
-
-    });
-
-    var filterFns = {
-
-      numberGreaterThan50: function() {
-
-        var number = $(this).find('.number').text();
-
-        return parseInt( number, 10 ) > 50;
-
-      },
-
-      ium: function() {
-
-        var name = $(this).find('.name').text();
-
-        return name.match( /ium$/ );
-
-      }
-
-    };
-
-    $('.filters-button-group').on( 'click', 'button', function() {
-
-      var filterValue = $( this ).attr('data-filter');
-
-      filterValue = filterFns[ filterValue ] || filterValue;
-
-      $grid.isotope({ filter: filterValue });
-
-    });
-
-    $('.button-group').each( function( i, buttonGroup ) {
-
-      var $buttonGroup = $( buttonGroup );
-
-      $buttonGroup.on( 'click', 'button', function() {
-
-        $buttonGroup.find('.is-checked').removeClass('is-checked');
-
-        $( this ).addClass('is-checked');
-
-      });
-
-    });
-	
-	 //Portfolio Lightbox
-
-	$('.grid-item').magnificPopup({
-
-		delegate: 'a.port-view',
-
-		type: 'image',
-
-		gallery: {
-
-			enabled: true
-
-		},
-
-		removalDelay: 300,
-
-		mainClass: 'mfp-fade'
-
-	});
-	
-    //Google Map
-	google.maps.event.addDomListener(window, 'load', init);
-	function init() {
-		var mapOptions = {
-			zoom: 11,
-			center: new google.maps.LatLng(40.6700, -73.9400), // New York
-			styles: [{"featureType":"administrative","elementType":"all","stylers":[{"saturation":"-100"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","elementType":"all","stylers":[{"saturation":-100},{"lightness":"50"},{"visibility":"simplified"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":"-100"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"lightness":"30"}]},{"featureType":"road.local","elementType":"all","stylers":[{"lightness":"40"}]},{"featureType":"transit","elementType":"all","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]},{"featureType":"water","elementType":"labels","stylers":[{"lightness":-25},{"saturation":-100}]}]
-		};
-		var mapElement = document.getElementById('map');
-		var map = new google.maps.Map(mapElement, mapOptions);
-		var marker = new google.maps.Marker({
-			position: new google.maps.LatLng(40.6700, -73.9400),
-			map: map,
-			title: 'Snazzy!'
+		jQuery(window).scroll(function(){
+			if(jQuery(window).scrollTop() >= pxShow){
+				jQuery("#backtotop").fadeIn(fadeInTime);
+			}else{
+				jQuery("#backtotop").fadeOut(fadeOutTime);
+			}
 		});
-	}	
+		 
+		jQuery('#backtotop a').click(function(){
+			jQuery('html, body').animate({scrollTop:0}, scrollSpeed); 
+			return false; 
+		}); 
+		
 
 	
+/*----------------------------------------------------*/
+/*	Tabs
+/*----------------------------------------------------*/
+
+	(function() {
+
+		var $tabsNav    = $('.tabs-nav'),
+			$tabsNavLis = $tabsNav.children('li'),
+			$tabContent = $('.tab-content');
+
+		$tabsNav.each(function() {
+			var $this = $(this);
+
+			$this.next().children('.tab-content').stop(true,true).hide()
+												 .first().show();
+
+			$this.children('li').first().addClass('active').stop(true,true).show();
+		});
+
+		$tabsNavLis.on('click', function(e) {
+			var $this = $(this);
+
+			$this.siblings().removeClass('active').end()
+				 .addClass('active');
+			
+			$this.parent().next().children('.tab-content').stop(true,true).hide()
+														  .siblings( $this.find('a').attr('href') ).fadeIn();
+
+			e.preventDefault();
+		});
+
+	})();
+	
+	
+
+
+
+
+
+
+
+
+
+
+/* End Document */
 });
