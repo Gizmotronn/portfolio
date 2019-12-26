@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Portlo - Bootstrap 4 Portfolio Template</title>
+    <title>Home-2 || Portlo - Bootstrap 4 Portfolio Template</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,7 +33,7 @@
 <body>
 
     <!-- Start Header -->
-    <header class="draven-haeder ptb_lg--35 ptb_md--35 ptb_sm--35 haeder-default  black-logo-version headroom--sticky">
+    <header class="draven-haeder ptb_lg--35 ptb_md--35 ptb_sm--35 haeder-default header--transparent black-logo-version headroom--sticky">
         <div class="header-wrap plr--110 plr_lp--30 plr_lg--60 plr_md--60 plr_sm--40">
             <!-- Start Header Left -->
             <div class="header-col header-col__left">
@@ -274,49 +274,76 @@
     <!-- End Search FlyOver Area -->
 
     <div class="main-wrapper">
-
         <!-- Start Slider Area -->
-        <div class="slider-area">
-            <div class="row row--0 align-items-center">
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="thumbnail">
-                        <img class="w-100" src="assets/images/slider/slider-01.jpg" alt="Portlo">
+        <div class="portlo-slider-wrapper">
+            <div class="portlo-element-carousel" data-slick-options='{
+                        "spaceBetween": "0", 
+                        "slidesToShow": 1, 
+                        "slidesToScroll": 1, 
+                        "arrows": true, 
+                        "infinite": true,
+                        "centerMode":false,
+                        "dots": false,
+                        "prevArrow": {"buttonClass": "slick-btn slick-prev", "iconClass": "fa fa-angle-left" },
+                        "nextArrow": {"buttonClass": "slick-btn slick-next", "iconClass": "fa fa-angle-right" }
+                    }' data-slick-responsive='[
+                        {"breakpoint":1250, "settings": {"slidesToShow": 1}},
+                        {"breakpoint":577, "settings": {"slidesToShow": 1}},
+                        {"breakpoint":481, "settings": {"slidesToShow": 1}}
+                    ]'>
+
+                <!-- Start Slider Area -->
+                <div class="slide slider-style--2 slide-bg-shape fullscreen bg_image d-flex">
+                    <div class="container">
+                        <div class="row pt--70">
+                            <div class="col-lg-6 col-md-12 col-12 slide-parts">
+                                <div class="slider2-content text-left">
+                                    <h1>Designing Effective</h1>
+                                    <p>Lorem Ipsum is simply dummy of the printing typesetting industry.</p>
+                                    <div class="portlo-button mt--50 mt_md--20 mt_sm--20">
+                                        <a href="#"><span>READ MORE</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-12 d-none d-lg-block slide-parts-bottom">
+                                <div class="slide-thumbnail text-left">
+                                    <img src="assets/images/slider/slider-04.png" alt="Slider">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-12 mt_md--40 mt_sm--40 pb_md--50 pb_sm--50">
-                    <div class="slider-content plr--100 plr_lg--30 plr_md--50 plr_sm--50">
-                        <h2 class="title">HELLO,</h2>
-                        <h1>We Have <br> a Design <br> Plan.</h1>
+                <!-- End Slider Area -->
+
+                <!-- Start Slider Area -->
+                <div class="slide slider-style--2 slide-bg-shape fullscreen bg_image d-flex">
+                    <div class="container">
+                        <div class="row pt--70">
+                            <div class="col-lg-6 col-md-12 col-12 slide-parts">
+                                <div class="slider2-content text-left">
+                                    <h1>Designing Effective</h1>
+                                    <p>Lorem Ipsum is simply dummy of the printing typesetting industry.</p>
+                                    <div class="portlo-button mt--50 mt_md--20 mt_sm--20">
+                                        <a href="#"><span>READ MORE</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-12 d-none d-lg-block slide-parts-bottom">
+                                <div class="slide-thumbnail text-left">
+                                    <img src="assets/images/slider/slider-04.png" alt="Slider">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- End Slider Area -->
+
             </div>
         </div>
         <!-- End Slider Area -->
 
-        <!-- Start About Area -->
-        <div class="about-area bg-color ptb--120 ptb_md--80 ptb_sm--80" data-bg-color="#040012">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-12 pl--360 pr--70 pl_lp--50 plr_lp--30 pr_lg--10 pl_lg--60 pr_md--50 pl_md--50 pr_sm--50 pl_sm--50">
-                    <div class="about-content">
-                        <h2 class="section-title--3 text-white mb--35">We are the best team for creative design.</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
-                        <div class="portlo-button btn-white mt--50">
-                            <a href="#"><span>READ MORE</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--40 pr--200 pl--50 pr_lp--30 pl_lp--30 pr_lg--50 pl_lg--50 pr_md--50 pl_md--30 pr_sm--50 pl_sm--50">
-                    <div class="thumbnail">
-                        <img class="w-100" src="assets/images/slider/about-01.jpg" alt="Portlo">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End About Area -->
-
         <!-- Start Service Area -->
-        <div class="service-area bg-color ptb--120 ptb_md--80 ptb_sm--80" data-bg-color="#ffffff">
+        <div class="service-area bg-color ptb--120 ptb_md--80 ptb_sm--80" data-bg-color="#f9f9f9">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -326,360 +353,501 @@
                     </div>
                 </div>
             </div>
-            <!-- Start Portfolio Area -->
-            <div class="has-portfolio-wrapper mt--60 plr--80">
-                <div class="portlo-element-carousel" data-slick-options='{
-                                "spaceBetween": "35px", 
-                                "slidesToShow": 2, 
-                                "slidesToScroll": 1, 
-                                "arrows": false, 
-                                "infinite": true,
-                                "centerMode":true,
-                                "dots": false,
-                                "centerPadding": "30"
-                            }' data-slick-responsive='[
-                                {"breakpoint":1250, "settings": {"slidesToShow": 1}},
-                                {"breakpoint":577, "settings": {"slidesToShow": 1}},
-                                {"breakpoint":481, "settings": {"slidesToShow": 1}}
-                            ]'>
-
-                    <!-- Start Single Portfolio -->
-                    <div class="has-center-content">
-                        <div class="has-centerinner">
-                            <div class="content">
-                                <h6 class="theme-color">Design</h6>
-                                <h1 class="mt--30 mt_sm--15 mt_md--10"><a href="#">We Provide Degital Design Support</a></h1>
-                                <div class="read-more-btn mt--40 mt_sm--15 mt_md--20 mt_lg--20">
-                                    <a href="#"><span>Read More</span> <i class="fa fa-arrow-right"></i></a>
+            <!-- Start Service Area -->
+            <div class="container">
+                <div class="row mt--30">
+                    <!-- Start Single Service -->
+                    <div class="col-lg-4 col-md-6 col-12 mt--30">
+                        <div class="icon-box">
+                            <div class="icon-inner">
+                                <div class="icon">
+                                    <i class="fa fa-american-sign-language-interpreting"></i>
                                 </div>
                             </div>
-                            <div class="thumb">
-                                <img src="assets/images/portfolio/service-01.jpg" alt="portfolio image">
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- End Single Portfolio -->
-
-                    <!-- Start Single Portfolio -->
-                    <div class="has-center-content">
-                        <div class="has-centerinner">
                             <div class="content">
-                                <h6 class="theme-color">Design</h6>
-                                <h1 class="mt--30 mt_sm--15 mt_md--10"><a href="#">We Provide Degital Design Support</a></h1>
-                                <div class="read-more-btn mt--40 mt_sm--15 mt_md--20 mt_lg--20">
-                                    <a href="#"><span>Read More</span> <i class="fa fa-arrow-right"></i></a>
+                                <h1 class="title">Interior Design</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div class="portlo-button text-center mt--10">
+                                    <a href="#"><span>READ MORE</span></a>
                                 </div>
                             </div>
-                            <div class="thumb">
-                                <img src="assets/images/portfolio/service-02.jpg" alt="portfolio image">
-                            </div>
-
                         </div>
                     </div>
-                    <!-- End Single Portfolio -->
+                    <!-- End Single Service -->
 
-                    <!-- Start Single Portfolio -->
-                    <div class="has-center-content">
-                        <div class="has-centerinner">
-                            <div class="content">
-                                <h6 class="theme-color">Design</h6>
-                                <h1 class="mt--30 mt_sm--15 mt_md--10"><a href="#">We Provide Degital Design Support</a></h1>
-                                <div class="read-more-btn mt--40 mt_sm--15 mt_md--20 mt_lg--20">
-                                    <a href="#"><span>Read More</span> <i class="fa fa-arrow-right"></i></a>
+                    <!-- Start Single Service -->
+                    <div class="col-lg-4 col-md-6 col-12 mt--30">
+                        <div class="icon-box">
+                            <div class="icon-inner">
+                                <div class="icon">
+                                    <i class="fa fa-database"></i>
                                 </div>
                             </div>
-                            <div class="thumb">
-                                <img src="assets/images/portfolio/service-03.jpg" alt="portfolio image">
+                            <div class="content">
+                                <h1 class="title">Data Management</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div class="portlo-button text-center mt--10">
+                                    <a href="#"><span>READ MORE</span></a>
+                                </div>
                             </div>
-
                         </div>
                     </div>
-                    <!-- End Single Portfolio -->
+                    <!-- End Single Service -->
+
+                    <!-- Start Single Service -->
+                    <div class="col-lg-4 col-md-6 col-12 mt--30">
+                        <div class="icon-box">
+                            <div class="icon-inner">
+                                <div class="icon">
+                                    <i class="fa fa-eye"></i>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h1 class="title">Modern Design</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div class="portlo-button text-center mt--10">
+                                    <a href="#"><span>READ MORE</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Service -->
+
                 </div>
             </div>
-
-            <!-- End Portfolio Area -->
+            <!-- End Service Area -->
         </div>
         <!-- End Service Area -->
 
-        <!-- Start Video Area -->
-        <div class="video-area bg_image bg_image--2 ptb--120">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="video-wrapper text-center">
-                            <h1 class="text-white">UILDING THE BEST DIGITAL SOLUTION FOR YOUR BRANDS</h1>
-                            <!-- Start Single Popup -->
-                            <div class="video-btn mt--40">
-                                <a class="play__btn" href="https://www.youtube.com/watch?v=-AtQQwww2EU">
-                                    <div class="video-icon second-icon"></div>
-                                </a>
-                            </div>
-                            <!-- End Single Popup -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Video Area -->
-
-        <!-- Start Testimonial Area -->
-        <div class="testimonial-area bg-color ptb--120 ptb_md--80 ptb_sm--80 position-relative" data-bg-color="#f9f9f9">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-center">
-                            <h2 class="section-title--3">Testimonial</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Start Testimonial Wrapper -->
-            <div class="testimonial-wrapper testimonial--horizontal testimonial--horizontal--active pagination-style-01 mt--50">
-                <div class="testimonial-container swiper-wrapper">
-                    <!-- Start Single Testimonial -->
-                    <div class="testimonial testimonial_style--1 swiper-slide">
-                        <div class="content">
-                            <p>Themplate is <span class="theme-color">@Porto</span> It is a long established fact that a
-                                reader will be distracted by the readable content of a
-                                page when looking at its layout..</p>
-                            <div class="testimonial-info">
-                                <div class="post-thumbnail">
-                                    <img src="assets/images/clint/clint-01.jpg" alt="clint image">
-                                </div>
-                                <div class="clint-info">
-                                    <h6>Harley Mills</h6>
-                                    <span>PR Officer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-
-                    <!-- Start Single Testimonial -->
-                    <div class="testimonial testimonial_style--1 swiper-slide">
-                        <div class="content">
-                            <p>Themplate is <span class="theme-color">@Porto</span> It is a long established fact that a
-                                reader will be distracted by the readable content of a
-                                page when looking at its layout..</p>
-                            <div class="testimonial-info">
-                                <div class="post-thumbnail">
-                                    <img src="assets/images/clint/clint-01.jpg" alt="clint image">
-                                </div>
-                                <div class="clint-info">
-                                    <h6>Harley Mills</h6>
-                                    <span>PR Officer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-
-                    <!-- Start Single Testimonial -->
-                    <div class="testimonial testimonial_style--1 swiper-slide">
-                        <div class="content">
-                            <p>Themplate is <span class="theme-color">@Porto</span> It is a long established fact that a
-                                reader will be distracted by the readable content of a
-                                page when looking at its layout..</p>
-                            <div class="testimonial-info">
-                                <div class="post-thumbnail">
-                                    <img src="assets/images/clint/clint-01.jpg" alt="clint image">
-                                </div>
-                                <div class="clint-info">
-                                    <h6>Harley Mills</h6>
-                                    <span>PR Officer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-
-                    <!-- Start Single Testimonial -->
-                    <div class="testimonial testimonial_style--1 swiper-slide">
-                        <div class="content">
-                            <p>Themplate is <span class="theme-color">@Porto</span> It is a long established fact that a
-                                reader will be distracted by the readable content of a
-                                page when looking at its layout..</p>
-                            <div class="testimonial-info">
-                                <div class="post-thumbnail">
-                                    <img src="assets/images/clint/clint-01.jpg" alt="clint image">
-                                </div>
-                                <div class="clint-info">
-                                    <h6>Harley Mills</h6>
-                                    <span>PR Officer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-
-                    <!-- Start Single Testimonial -->
-                    <div class="testimonial testimonial_style--1 swiper-slide">
-                        <div class="content">
-                            <p>Themplate is <span class="theme-color">@Porto</span> It is a long established fact that a
-                                reader will be distracted by the readable content of a
-                                page when looking at its layout..</p>
-                            <div class="testimonial-info">
-                                <div class="post-thumbnail">
-                                    <img src="assets/images/clint/clint-01.jpg" alt="clint image">
-                                </div>
-                                <div class="clint-info">
-                                    <h6>Harley Mills</h6>
-                                    <span>PR Officer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-
-                    <!-- Start Single Testimonial -->
-                    <div class="testimonial testimonial_style--1 swiper-slide">
-                        <div class="content">
-                            <p>Themplate is <span class="theme-color">@Porto</span> It is a long established fact that a
-                                reader will be distracted by the readable content of a
-                                page when looking at its layout..</p>
-                            <div class="testimonial-info">
-                                <div class="post-thumbnail">
-                                    <img src="assets/images/clint/clint-01.jpg" alt="clint image">
-                                </div>
-                                <div class="clint-info">
-                                    <h6>Harley Mills</h6>
-                                    <span>PR Officer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-
-                </div>
-                <!-- Add Pagination -->
-
-            </div>
-            <!-- End Testimonial Wrapper -->
-        </div>
-        <!-- End Testimonial Area -->
-
         <!-- Start Portfolio Area -->
-        <div class="portfolio-area bg-color pt--120 pt_md--80 pt_sm--80" data-bg-color="#040012">
+        <div class="portfolio-area bg-color ptb--120 ptb_md--80 ptb_sm--80" data-bg-color="#ffffff">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title text-center">
-                        <h2 class="section-title--3 text-white">Latest Project</h2>
+                        <h2 class="section-title--3">Latest Project</h2>
                     </div>
                 </div>
             </div>
-            <div class="row mt--50 row--0">
-                <!-- Start Single Portfolio -->
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="portfolio portfolio_style--2">
-                        <div class="inner">
-                            <a href="portfolio-details.html" class="thumb paralax-image">
-                                <img class="w-100" src="assets/images/portfolio/portfolio-14.jpg" alt="Portfolio Images">
-                            </a>
-                            <div class="port-overlay-info overlay__fullHeight">
-                                <div class="hover-action">
-                                    <div class="icon_link">
-                                        <a class="search_icon" href="portfolio-details.html">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
-                                    <p>Design a gift paper</p>
-                                </div>
-                            </div>
+            <div class="portfolio-fullwidth-box plr--30 mt--60">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="messonry-button messonry-button--2 text-center">
+                            <button data-filter="*" class="is-checked"><span class="filter-text">ALL</span></button>
+                            <button data-filter=".cat--1" class=""><span class="filter-text">CREATIVE</span></button>
+                            <button data-filter=".cat--2" class=""><span class="filter-text">DESIGN</span></button>
+                            <button data-filter=".cat--3" class=""><span class="filter-text">DIGITAL</span></button>
+                            <button data-filter=".cat--4" class=""><span class="filter-text">PHOTOGRAPHY</span></button>
                         </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
 
-                <!-- Start Single Portfolio -->
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="portfolio portfolio_style--2">
-                        <div class="inner">
-                            <a href="portfolio-details.html" class="thumb paralax-image">
-                                <img class="w-100" src="assets/images/portfolio/portfolio-15.jpg" alt="Portfolio Images">
-                            </a>
-                            <div class="port-overlay-info overlay__fullHeight">
-                                <div class="hover-action">
-                                    <div class="icon_link">
-                                        <a class="search_icon" href="portfolio-details.html">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
-                                    <p>Design a gift paper</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
+                        <!-- Start MAsonry List -->
+                        <div class="mesonry-list portfolio-grid-metro4 with__gutter--30 mt--50">
+                            <div class="resizer"></div>
 
-                <!-- Start Single Portfolio -->
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="portfolio portfolio_style--2">
-                        <div class="inner">
-                            <a href="portfolio-details.html" class="thumb paralax-image">
-                                <img class="w-100" src="assets/images/portfolio/portfolio-14.jpg" alt="Portfolio Images">
-                            </a>
-                            <div class="port-overlay-info overlay__fullHeight">
-                                <div class="hover-action">
-                                    <div class="icon_link">
-                                        <a class="search_icon" href="portfolio-details.html">
-                                            <i class="fa fa-link"></i>
-                                        </a>
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--2 cat--3">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-01.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
                                     </div>
-                                    <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
-                                    <p>Design a gift paper</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
+                            <!-- End Single Portfolio -->
 
-                <!-- Start Single Portfolio -->
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="portfolio portfolio_style--2">
-                        <div class="inner">
-                            <a href="portfolio-details.html" class="thumb paralax-image">
-                                <img class="w-100" src="assets/images/portfolio/portfolio-16.jpg" alt="Portfolio Images">
-                            </a>
-                            <div class="port-overlay-info overlay__fullHeight">
-                                <div class="hover-action">
-                                    <div class="icon_link">
-                                        <a class="search_icon" href="portfolio-details.html">
-                                            <i class="fa fa-link"></i>
-                                        </a>
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--4 cat--2">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-02.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
                                     </div>
-                                    <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
-                                    <p>Design a gift paper</p>
                                 </div>
                             </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--4 cat--3">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-01.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--2 cat--3">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-04.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--4 cat--2">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-05.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--4 cat--3">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-06.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--2 cat--3">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-05.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--4 cat--2">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-06.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--4 cat--3">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-03.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--4 cat--3">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-04.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--2 cat--3">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-05.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio portfolio_style--1 portfolio-25 cat--4 cat--2">
+                                <div class="inner">
+                                    <a href="portfolio-details.html" class="thumb">
+                                        <img class="w-100" src="assets/images/portfolio/portfolio-06.jpg" alt="Portfolio Images">
+                                    </a>
+                                    <div class="port-overlay-info">
+                                        <a class="icon" href="portfolio-details.html"><img src="assets/images/logo/plus.png" alt="Portlo"></a>
+                                        <div class="hover-action">
+                                            <h4 class="title"><a href="portfolio-details.html">Gift Watch</a></h4>
+                                            <p>Design a gift paper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
                         </div>
+                        <!-- End MAsonry List -->
                     </div>
                 </div>
-                <!-- End Single Portfolio -->
             </div>
         </div>
         <!-- End Portfolio Area -->
 
+        <!-- Start Team Area -->
+        <div class="team-area ptb--120 ptb_md--80 ptb_sm--80 bg-color" data-bg-color="#f9f9f9">
+            <div class="team-wrapper plr--120 plr_sm--30 plr_md--30 plr_lg--40">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2 class="section-title--3">Our Team</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--30 mt--30">
+                    <!-- Start Single Team -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                        <div class="team team-style--2 text-center">
+                            <div class="thumbnail position-relative">
+                                <img src="assets/images/team/team-cat-01.png" alt="Team Images">
+                                <div class="team-hover-action">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h5 class="font--18">Famita Asrafi</h5>
+                                <p>UI UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Team -->
+
+                    <!-- Start Single Team -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                        <div class="team team-style--2 text-center">
+                            <div class="thumbnail position-relative">
+                                <img src="assets/images/team/team-cat-02.png" alt="Team Images">
+                                <div class="team-hover-action">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h5 class="font--18">Jack Ma</h5>
+                                <p>UI UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Team -->
+
+                    <!-- Start Single Team -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                        <div class="team team-style--2 text-center">
+                            <div class="thumbnail position-relative">
+                                <img src="assets/images/team/team-cat-03.png" alt="Team Images">
+                                <div class="team-hover-action">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h5 class="font--18">Tom Clancy</h5>
+                                <p>UI UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Team -->
+
+                    <!-- Start Single Team -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                        <div class="team team-style--2 text-center">
+                            <div class="thumbnail position-relative">
+                                <img src="assets/images/team/team-cat-04.png" alt="Team Images">
+                                <div class="team-hover-action">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h5 class="font--18">Tom Clancy</h5>
+                                <p>UI UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Team -->
+
+                </div>
+            </div>
+        </div>
+        <!-- End Team Area -->
+
         <!-- Start Brand Area -->
-        <div class="brand-area bg-color ptb--60" data-bg-color="#ffffff">
+        <div class="blog-area bg-color ptb--120 ptb_md--80 ptb_sm--80" data-bg-color="#ffffff">
+            <div class="blog-wrapper plr--80 plr_md--40 plr_sm--30 plr_lg--40">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2 class="section-title--3">Latest Blog</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt--20">
+                    <!-- Start Single Blog -->
+                    <div class="col-lg-6 col-xl-4 col-md-6 col-12">
+                        <div class="blog blog_style--1 border-none mt--40">
+                            <div class="thumbnail">
+                                <a href="blog-details.html">
+                                    <img class="w-100" src="assets/images/blog/blog-01.png" alt="Blog Images">
+                                </a>
+                            </div>
+                            <div class="inner">
+                                <h3 class="mb--15 mt--10 title"><a href="blog-details.html">Consumer Behaviour</a></h3>
+                                <ul class="meta">
+                                    <li>25 Jan, 2019</li>
+                                    <li>By <a href="#">Jane Jak</a></li>
+                                    <li><a href="#">Makrketing</a></li>
+                                </ul>
+                                <p class="font--16 mb--35 mt--15">Consumer behaviour is the study of how individual
+                                    customers, groups or organizations select,.</p>
+                                <div class="blog-btn">
+                                    <a class="button-link" href="blog-details.html"><span>Read More</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Blog -->
+
+                    <!-- Start Single Blog -->
+                    <div class="col-lg-6 col-xl-4 col-md-6 col-12">
+                        <div class="blog blog_style--1 border-none mt--40">
+                            <div class="thumbnail">
+                                <a href="blog-details.html">
+                                    <img class="w-100" src="assets/images/blog/blog-02.png" alt="Blog Images">
+                                </a>
+                            </div>
+                            <div class="inner">
+                                <h3 class="mb--15 mt--10 title"><a href="blog-details.html">Marketers expect</a></h3>
+                                <ul class="meta">
+                                    <li>25 Jan, 2019</li>
+                                    <li>By <a href="#">Jane Jak</a></li>
+                                    <li><a href="#">Makrketing</a></li>
+                                </ul>
+                                <p class="font--16 mb--35 mt--15">Consumer behaviour is the study of how individual
+                                    customers, groups or organizations select,.</p>
+                                <div class="blog-btn">
+                                    <a class="button-link" href="blog-details.html"><span>Read More</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Blog -->
+
+                    <!-- Start Single Blog -->
+                    <div class="col-lg-6 col-xl-4 col-md-6 col-12">
+                        <div class="blog blog_style--1 border-none mt--40">
+                            <div class="thumbnail">
+                                <a href="blog-details.html">
+                                    <img class="w-100" src="assets/images/blog/blog-03.png" alt="Blog Images">
+                                </a>
+                            </div>
+                            <div class="inner">
+                                <h3 class="mb--15 mt--10 title"><a href="blog-details.html">The roles Of different
+                                        consumption</a></h3>
+                                <ul class="meta">
+                                    <li>25 Jan, 2019</li>
+                                    <li>By <a href="#">Jane Jak</a></li>
+                                    <li><a href="#">Makrketing</a></li>
+                                </ul>
+                                <p class="font--16 mb--35 mt--15">Consumer behaviour is the study of how individual
+                                    customers, groups or organizations select,.</p>
+                                <div class="blog-btn">
+                                    <a class="button-link" href="blog-details.html"><span>Read More</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Blog -->
+                </div>
+            </div>
+        </div>
+        <!-- End Brand Area -->
+
+        <!-- Start Brand Area -->
+        <div class="brand-area bg-color ptb--60" data-bg-color="#f9f9f9">
             <div class="portlo-element-carousel slick-arrow-center slick-arrow-triggle slick-arrow-trigglestyle-2 plr--50" data-slick-options='{
-                                "spaceBetween": "35px", 
-                                "slidesToShow": 5, 
-                                "slidesToScroll": 1, 
-                                "arrows": false, 
-                                "infinite": true,
-                                "centerMode":false,
-                                "dots": false
-                            }' data-slick-responsive='[
-                                {"breakpoint":992, "settings": {"slidesToShow": 4}},
-                                {"breakpoint":577, "settings": {"slidesToShow": 3}},
-                                {"breakpoint":481, "settings": {"slidesToShow": 1}}
-                            ]'>
+                                    "spaceBetween": "35px", 
+                                    "slidesToShow": 5, 
+                                    "slidesToScroll": 1, 
+                                    "arrows": false, 
+                                    "infinite": true,
+                                    "centerMode":false,
+                                    "dots": false
+                                }' data-slick-responsive='[
+                                    {"breakpoint":992, "settings": {"slidesToShow": 4}},
+                                    {"breakpoint":577, "settings": {"slidesToShow": 3}},
+                                    {"breakpoint":481, "settings": {"slidesToShow": 1}}
+                                ]'>
 
                 <div class="brand">
                     <a href="#"><img src="assets/images/brand/brand-01.png" alt="Brand"></a>
@@ -713,93 +881,6 @@
         </div>
         <!-- End Brand Area -->
 
-        <!-- Start Brand Area -->
-        <div class="blog-area bg-color ptb--120 ptb_md--80 ptb_sm--80" data-bg-color="#f9f9f9">
-            <div class="blog-wrapper plr--80 plr_md--40 plr_sm--30 plr_lg--40">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-center">
-                            <h2 class="section-title--3">Latest Blog</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt--20">
-                    <!-- Start Single Blog -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 col-12">
-                        <div class="blog blog_style--1 border-none mt--40">
-                            <div class="thumbnail">
-                                <a href="blog-details.html">
-                                    <img class="w-100" src="assets/images/blog/blog-01.png" alt="Blog Images">
-                                </a>
-                            </div>
-                            <div class="inner">
-                                <h3 class="mb--15 mt--10 title"><a href="blog-details.html">Consumer Behaviour</a></h3>
-                                <ul class="meta">
-                                    <li>25 Jan, 2019</li>
-                                    <li>By <a href="#">Jane Jak</a></li>
-                                    <li><a href="#">Makrketing</a></li>
-                                </ul>
-                                <p class="font--16 mb--35 mt--15">Consumer behaviour is the study of how individual customers, groups or organizations select, .</p>
-                                <div class="blog-btn">
-                                    <a class="button-link" href="blog-details.html"><span>Read More</span> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Blog -->
-
-                    <!-- Start Single Blog -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 col-12">
-                        <div class="blog blog_style--1 border-none mt--40">
-                            <div class="thumbnail">
-                                <a href="blog-details.html">
-                                    <img class="w-100" src="assets/images/blog/blog-02.png" alt="Blog Images">
-                                </a>
-                            </div>
-                            <div class="inner">
-                                <h3 class="mb--15 mt--10 title"><a href="blog-details.html">Marketers expect</a></h3>
-                                <ul class="meta">
-                                    <li>25 Jan, 2019</li>
-                                    <li>By <a href="#">Jane Jak</a></li>
-                                    <li><a href="#">Makrketing</a></li>
-                                </ul>
-                                <p class="font--16 mb--35 mt--15">Consumer behaviour is the study of how individual customers, groups or organizations select, buy, use, and dispose ideas.</p>
-                                <div class="blog-btn">
-                                    <a class="button-link" href="blog-details.html"><span>Read More</span> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Blog -->
-
-                    <!-- Start Single Blog -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 col-12">
-                        <div class="blog blog_style--1 border-none mt--40">
-                            <div class="thumbnail">
-                                <a href="blog-details.html">
-                                    <img class="w-100" src="assets/images/blog/blog-03.png" alt="Blog Images">
-                                </a>
-                            </div>
-                            <div class="inner">
-                                <h3 class="mb--15 mt--10 title"><a href="blog-details.html">The roles Of different consumption</a></h3>
-                                <ul class="meta">
-                                    <li>25 Jan, 2019</li>
-                                    <li>By <a href="#">Jane Jak</a></li>
-                                    <li><a href="#">Makrketing</a></li>
-                                </ul>
-                                <p class="font--16 mb--35 mt--15">Consumer behaviour is the study of how individual customers.</p>
-                                <div class="blog-btn">
-                                    <a class="button-link" href="blog-details.html"><span>Read More</span> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Blog -->
-                </div>
-            </div>
-        </div>
-        <!-- End Brand Area -->
     </div>
     <!-- Start Footer Area -->
     <footer class="footer-default bg-color" data-bg-color="#151515">
