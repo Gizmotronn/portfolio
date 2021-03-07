@@ -1,600 +1,723 @@
-<!DOCTYPE html>     
-<html lang="en">   
- 
+<!DOCTYPE HTML>
+<html lang="en">
+   	
+
 <head>
+    <!--Meta Tags-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <!--Favicons-->
+   	<link rel="shortcut icon" href="img/favicon.png">
+    <!--Page Title-->
+    <title>Liam Arbuckle</title>
 
-    <title>LArbuckle.dev</title>
-  
-    <!--== Favicon ==-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+	<!-- Stylesheets -->
 
-    <!--== Main Style CSS ==--> 
-    <link href="assets/css/style.css" rel="stylesheet" />
-    
-</head>
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<!-- Awesome Fonts-->
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<!-- Magnific Popup-->
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<!--Main Styles Css-->
+	<link rel="stylesheet" href="css/style.css"/>
 
-<body>
+	</head>
+	<body>
 
-<!--wrapper start-->
-<div class="wrapper">
-
-  <!--== Start Preloader Content ==-->
-  <div class="preloader-wrap">
-  	<div class="preloader">
-	    <span class="dot"></span>
-	    <div class="dots">
-        <span></span> 
-        <span></span>
-        <span></span>
-	    </div>
-  	</div>
-  </div>
-  <!--== End Preloader Content ==-->
-
-  <!--== Start Header Wrapper ==-->
-  <header class="header-area transparent sticky-header">
-    <div class="container-fluid">
-      <div class="row align-items-center">
-        <div class="col-5 col-lg-6">
-          <div class="header-logo-area">
-            <a href="index.html">
-              <img class="logo-main" src="assets/img/logo.png" alt="Logo" />
-              <img class="logo-light" src="assets/img/logo-light.png" alt="Logo" />
-            </a>
-          </div>
-        </div>
-        <div class="col-7 col-lg-6">
-          <div class="header-action-area justify-content-end">
-            <a href="shopping-cart.html" class="btn-cart"><span class="icon-ecommerce-bag"></span> <sup class="shop-count">0</sup></a>
-            <button class="btn-menu"><i class="icon lnr lnr-menu"></i></button>
-          </div>
-        </div>
-
-        <div class="col d-none">
-          <div class="header-navigation-area">
-            <ul class="main-menu nav justify-content-center">
-              <!--<li class="has-submenu colunm-two active"><a href="index.html">Home</a>
-                <ul class="submenu-nav submenu-nav-mega">
-                  <li class="mega-menu-item"><a class="srmenu-title" href="#">Home Sample 01</a>
-                    <ul>
-                      <li>
-                        <a href="index-agency-digital.html">Agency Digital</a>
-                      </li>
-                      <li>
-                        <a href="index-agency-creative.html">Agency Creative</a>
-                      </li>
-                      <li>
-                        <a href="index-agency-modern.html">Agency Modern</a>
-                      </li>
-                      <li>
-                        <a href="index-agency-simple.html">Agency Simple</a>
-                      </li>
-                      <li>
-                        <a href="index-freelance-designer.html">Freelance Desinger</a>
-                      </li>
-                      <li>
-                        <a href="index-freelance-developer.html">Freelance Developer</a>
-                      </li>
-                      <li>
-                        <a href="index-personal.html">Personal</a>
-                      </li>
-                      <li>
-                        <a href="index-photographer.html">Photographer</a>
-                      </li>
-                      <li>
-                        <a href="index-text-interative.html">Text Interative</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="mega-menu-item"><a class="srmenu-title" href="#">Home Sample 02</a>
-                    <ul>
-                      <li>
-                        <a href="index-full-screen-text.html">Full Screen Text Style</a>
-                      </li>
-                      <li>
-                        <a href="index-full-screen-vertical.html">Full Screen Vertical</a>
-                      </li>
-                      <li>
-                        <a href="index-full-screen-horizontal.html">Full Screen Horizontal</a>
-                      </li>
-                      <li>
-                        <a href="index-full-screen-parallax.html">Full Screen Parallax</a>
-                      </li>
-                      <li>
-                        <a href="index-masonry-simple.html">Masonry Simple</a>
-                      </li>
-                      <li>
-                        <a href="index-masonry-style.html">Masonry Style</a>
-                      </li>
-                      <li>
-                        <a href="index-metro-style.html">Metro Style</a>
-                      </li>
-                      <li>
-                        <a href="index-grid-style.html">Grid Style</a>
-                      </li>
-                      <li>
-                        <a href="index-video-featured.html">Video Featured</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>-->
-              <li class="has-submenu"><a href="blog.html">Writing</a>
-                <ul class="submenu-nav">
-                  <li><a href="https://larbuckle.herokuapp.com/tag/space/">Space Sciences</a></li>
-                  <li><a href="https://larbuckle.herokuapp.com/tag/git/">GitUpdated</a></li>
-                  <li><a href="https://larbuckle.herokuapp.com/tag/development/">Dev Talk</a></li>
-                  <li><a href="https://acord.substack.com/">Newsletter</a></li>
-                </ul>
-              </li>
-              <li class="has-submenu colunm-three"><a href="index.html">Projects</a>
-                <ul class="submenu-nav submenu-nav-mega">
-                  <li class="mega-menu-item"><a href="#/">Competitions</a>
-                    <ul>
-                      <li>
-                        <a href="https://github.com/acord-robotics/open-source-rover">Open Source Rover</a>
-                      </li>
-                      <li>
-                        <a href="https://github.com/EXYNOS-999/AWS_JPL_OSR_DRL">JPL SpaceChallenge</a>
-                      </li>
-                      <li>
-                        <a href="https://www.herox.com/VenusRover">Exploring Hell</a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                  <li class="mega-menu-item mega-menu-item-center"><a class="srnmenu-title" href="#/">Volunteering</a>
-                    <ul>
-                      <li>
-                        <a href="http://www.savysoda.com/">Savy Soda</a>
-                      </li>
-                      <li>
-                        <a href="https://www.kickstarter.com/projects/aurorianstudios/one-lonely-outpost">One Lonely Outpost</a>
-                      </li>
-                      <li>
-                        <a href="https://planetary.org">Planetary Society</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="mega-menu-item"><a href="#/">Games</a>
-                    <ul>
-                      <li>
-                        <a href="https://github.com/gizmotronn/unity-intro">Unity RPG (WIP)</a>
-                      </li>
-                      <li>
-                        <a href="https://acord.software/stellarios/compass">Star Sailors (WIP)</a>
-                      </li>
-                     
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-submenu full-width"><a href="index.html">My Websites</a>
-                <ul class="submenu-nav submenu-nav-mega">
-                  <li class="mega-menu-item"><a href="#">Store</a>
-                    <ul>
-                      <li><a href="#">Corporate site -- $100</a></li>
-                      <li><a href="#">E-commerce site -- $75</a></li>
-                      <li><a href="#">Artist portfolio -- $50</a></li>
-                    </ul>
-                  </li>
-                  <li class="mega-menu-item"><a href="#">Recent commissions</a>
-                    <ul>
-                      <li><a href="https://willettonfootballclub.com">Willetton Football Club</a></li>
-                      <li><a href="https://acord.software/thesashpod">The Sash Pod (WIP)</a></li>
-                    </ul>
-                  </li>
-                  <li class="mega-menu-item menu-content" id="d">
-                    <div class="menu-content-inner">
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-submenu full-width"><a href="https://larbuckle.herokuapp.com">Blog</a>
-                
-              </li>
-              <li class="has-submenu full-width"><a href="https://github.com/gizmotronn">Github</a>
-                
-              </li>
-              <li class="has-submenu full-width"><a href="https://dribbble.com">Dribbble</a>
-                
-              </li>
-              
-              <!--<li class="has-submenu"><a href="index.html">Pages</a>
-                <ul class="submenu-nav">
-                  <li><a href="about-agency.html">About Agency</a></li>
-                  <li><a href="about-freelancer.html">About Freelancer</a></li>
-                  <li><a href="about-personal.html">About Personal</a></li>
-                  <li><a href="about-studio.html">About Studio</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="page-not-found.html">404</a></li>
-                  <li><a href="coming-soon.html">Coming Soon</a></li>
-                </ul>
-              </li>-->
-              
-            </ul>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!--== End Header Wrapper ==-->
-
-  <main class="main-content site-wrapper-reveal">
-    <!--== Start Hero Area Wrapper ==-->
-  	<section class="home-slider-area slider-agency-creative" data-bg-img="assets/img/home.jpg">
-  		<div class="container">
-  			<div class="row justify-content-center">
-  				<div class="col-lg-10 text-center">
-  					<div class="slider-content-area">
-  						<h6>LArbuckle</h6>
-              <h3>I'm a full stack developer, tech writer and designer..</h3>
-              
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-      <div class="hero-portfolio-area">
-        <div class="section-title">
-          <h5>I work on</h5>
-        </div>
-        <div class="portfolio-filter-menu">
-          <button class="active" data-filter="*">All</button>
-          <button data-filter=".animation">Games</button>
-          <button data-filter=".graphic">Web Design</button>
-          <button data-filter=".music">Music</button>
-          <button data-filter=".software">Software</button>
-        </div>
-      </div>
-  	</section>
-  	<!--== End Hero Area Wrapper ==-->
-
-  	<!--== Start Portfolio Area ==-->
-  	<section class="portfolio-area portfolio-agency-creative">
-  		<div class="container-fluid">
-        <div class="row portfolio-masonry portfolio-items-overlay-white">
-          <div class="col-sm-6 col-lg-3 portfolio-item graphic">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="https://willettonfootballclub.com"><img src="assets/img/p1.jpg" alt="Willetton Football Club"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="https://willettonfootballclub.com">Willetton Football Club Website</a></h3>
-                <a href="https://willettonfootballclub.com" class="category">Web Design</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 portfolio-item graphic">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="https://github.com/gizmotronn/portfolio"><img src="assets/img/p2.jpg" alt="Naix-Portfolio"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="https://github.com/gizmotronn/portfolio">Personal website template</a></h3>
-                <a href="https://github.com/gizmotronn/portfolio" class="category">Branding, Web Design</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 portfolio-item software animation">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="https://spacechallenge.tech"><img src="assets/img/p3.jpg" alt="Naix-Portfolio"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="">Open Source Rover</a></h3>
-                <a href="" class="category">Competition, Machine Learning</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 portfolio-item software">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="https://hyper.is"><img src="assets/img/p4.png" alt="Naix-Portfolio"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="#">Desktop Terminal</a></h3>
-                <a href="#" class="category">Development tools</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 portfolio-item animation">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="https://github.com/gizmotronn/unity-intro"><img src="assets/img/p5.png" alt="Naix-Portfolio"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="">Unity Platformer</a></h3>
-                <a href="" class="category">Games</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 portfolio-item software">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="https://github.com/acord-robotics/probot-apps"><img src="assets/img/p6.png" alt="Naix-Portfolio"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="#">Probot Apps</a></h3>
-                <a href="#" class="category">Javascript</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 portfolio-item software music">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="https://github.com/Signal-Kinetics/alexa-apis-for-python"><img src="assets/img/p7.jpg" alt="Naix-Portfolio"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="#">Amazon Alexa APIs</a></h3>
-                <a href="#" class="category">Machine learning</a>
-              </div>
-            </div>
-          </div><!--
-          <div class="col-sm-6 col-lg-3 portfolio-item brand animation">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="portfolio-details.html"><img src="assets/img/portfolio/agency-creative/08.jpg" alt="Naix-Portfolio"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="portfolio-details.html">Naix Creative Agency</a></h3>
-                <a href="portfolio-details.html" class="category">Mobile Design, Web Design</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 portfolio-item animation brand">
-            <div class="inner-content">
-              <div class="thumb">
-                <a href="portfolio-details.html"><img src="assets/img/portfolio/agency-creative/09.jpg" alt="Naix-Portfolio"/></a>
-              </div>
-              <div class="portfolio-info">
-                <h3 class="title"><a href="portfolio-details.html">Boutique App</a></h3>
-                <a href="portfolio-details.html" class="category">Mobile Design, Web Design</a>
-              </div>
-            </div>
-          </div>-->
-        </div>
-        
-      </div>
-      
-  	</section>
-  	<!--== End Portfolio Area ==-->
-
-  	<!--== Start Brand Logo Area ==
-  	<section class="brand-logo-area brand-agency-creative">
-  		<div class="container">
-        <div class="row">
-          <div class="col-lg-7 m-auto text-center">
-            <div class="section-title">
-              <h5>I work with</h5>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="brand-logo-content-area brand-logo-col5">
-              <div class="brand-list">
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/p8.png" alt="Naix-Logo" /></a>
-                </div>
-
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l2.png" alt="Naix-Logo" /></a>
-                </div>
-
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l3.png" alt="Naix-Logo" /></a>
-                </div>
-
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l4.png" alt="Naix-Logo" /></a>
-                </div>
-
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l5.png" alt="Naix-Logo" /></a>
-                </div>
-              </div>
-
-              <div class="brand-list">
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l7.png" alt="Naix-Logo" /></a>
-                </div>
-
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l6.png" alt="Naix-Logo" /></a>
-                </div>
-
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l8.png" alt="Naix-Logo" /></a>
-                </div>
-
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l9.png" alt="Naix-Logo" /></a>
-                </div>
-
-                <div class="brand-logo-item">
-                  <a href="#"><img src="assets/img/brand-logo/l10.png" alt="Naix-Logo" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  
-      </div>
-  	</section>
-  	<!--== Start Brand Logo Area ==-->
-
-    <!--== Start Divider Area Wrapper ==-->
-    <div class="blockquote-area" data-bg-img="assets/img/p8.png">
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 m-auto">
-            <div class="text-center">
-              <blockquote class="blockquote-style">
-                <p>
-                  “ I highly recommend Liam Arbuckle’s leadership skills. I have coached Liam for three years as part of my role at the Willetton Football Club. During that time, Liam would continuously seek ways to improve his leadership skills.
-                  </p>
-                <cite>
-                  <span class="name">Keilan Marshall</span>
-                  <span class="job">Willetton, Australia</span>
-                </cite>
-              </blockquote>
-              
-            </div>
-            
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    
-    <!--== End Divider Area Wrapper ==-->
-  </main>
-
-  <!--== Start Footer Area Wrapper ==-->
-  <footer class="footer-area reveal-footer footer-common-style">
-  	<div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-2 offset-lg-0 col-md-5 offset-md-2">
-          <div class="widget-item mt-0">
-            <div class="about-widget">
-              <a href="index.html">
-                <!--Img-->
-              </a>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-2 col-md-4">
-          <div class="widget-copyright">
-            <p>© LArbuckle 2020 <br>All Rights Resevered</p>
-            
-          </div>
-        </div>
-        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2">
-          <ul class="widget-contact-info">
-            <li>Management: acord.software</li>
-            <li>liam@acordsoftware.tech</li>
-            <li></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-4">
-          <nav class="widget-menu-wrap">
-            <ul class="nav-menu nav justify-content-center justify-content-md-end">
-              <li><a href="https://larbuckle.herokuapp.com/">My blog</a></li>
-              <li><a href="http://devlog.acord.software/">Programming news</a></li>
-              <li><a href="https://blog.larbuckle.tech">Old blog</a></li>
-              <li><a href="https://acord.substack.com">Newsletter</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-lg-1 offset-lg-0 col-md-5 offset-md-2">
-          <div class="widget-language">
-              <span class="current">The team <i class="fa fa-angle-down"></i></span>
-              <ul>
-                <li><a href="#">Liam Arbuckle</a></li>
-                <li><a href="http://notrishabh.co">Rishabh Chakrabarty</a></li>
-                <li><a href="https://au.linkedin.com/in/limenutt">Mikhail Asavkin</a></li>
-              </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-4">
-          <div class="widget-social-icons">
-            <a href="https://fb.me/droidology"><i class="social social_facebook"></i></a> 
-            <a href="https://twitter.com/OpusTheRobot"><i class="social social_twitter"></i></a> 
-            <a href="https://instagram.com/droidology"><i class="social social_instagram"></i></a>
-            <a href="https://dribbble.com"><i class="social social_dribbble"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!--== End Footer Area Wrapper ==-->
-
-  <!--== Scroll Top Button ==-->
-	<div class="scroll-to-top"><span class="fa fa-angle-up"></span></div>
-
-  <!--== Start Side Menu ==-->
-  <aside class="off-canvas-wrapper">
-    <div class="off-canvas-inner">
-      <div class="off-canvas-overlay"></div>
-      <!-- Start Off Canvas Content Wrapper -->
-      <div class="off-canvas-content">
-        <!-- Off Canvas Header -->
-        <div class="off-canvas-header">
-          <div class="logo-area">
-            <a href="index.html"><img src="assets/img/logo.png" alt="Logo" /></a>
-          </div>
-          <ul class="widget-language">
-            <li><a class="active" href="#/">LA</a></li>
-            <li><a href="https://acord.software">SK</a></li>
-            <li><a href="https://acord.substack.com">A0</a></li>
-          </ul>
-          <div class="close-action">
-            <button class="btn-close"><i class="lnr lnr-cross"></i></button>
-          </div>
-        </div>
-
-        <div class="off-canvas-item">
-          <!-- Start Mobile Menu Wrapper -->
-          <div class="res-mobile-menu menu-active-one">
-            <!-- Note Content Auto Generate By Jquery From Main Menu -->
-          </div>
-          <!-- End Mobile Menu Wrapper -->
-        </div>
-        <!-- Off Canvas Footer -->
-        <div class="off-canvas-footer">
-          
-          <div class="side-footer">
-            <div class="widget-social-icons">
-              <a class="icon-color" href="https://fb.me/droidology/"><i class="social social_facebook"></i></a> 
-              <a class="icon-color color-twitter" href="https://github.com/Gizmotronn"><i class="social social_twitter"></i></a> 
-              <a class="icon-color color-instagram" href="https://instagram.com/droidology"><i class="social social_instagram"></i></a>
-              <a class="icon-color color-googleplus" href="mailto:liam@acordsoftware.tech"><i class="social social_googleplus"></i></a>
-            </div>
-            <div class="widget-copyright">
-              <p> © LArbuckle 2020 <br>Design by Liam R. Arbuckle</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <!-- End Off Canvas Content Wrapper -->
-    </div>
-  </aside>
-  <!--== End Side Menu ==-->
+	<!-- Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	<!-- Εnd Preloader -->
 	
-</div>
+	<!-- header section start -->
+	<header class="header-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-3">
+					<!-- logo -->
+					<div class="logo">
+						<h2 class="site-logo">LArbuckle</h2>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-9">
+					<a href="mailto:liam@skinetics.tech" class="btn header-btn"><span>Get in touch</span></a>
+					<!-- main-menu -->
+					<nav class="main-menu" id="main-menu">
+						<ul>
+							<li><a class="selected" href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="http://app.skinetics.tech">Projects</a></li>
+							<li><a href="https://larbuckle.substack.com/">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+	</header>
+	<!-- header section end -->
 
+	<!-- intro section start -->
+	<section class="intro-section bg-img text-center" id="home">
+		<div class="bg-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="hero-content text-left">
+                        <h1 class="header-title mb-3">Liam Arbuckle</h1>
+                        <h4 class="text-dark mb-0">
+                        	i'm a
+                        	<span id="typed"></span>
+                     		<span id="typed-strings">
+                     			<span>Developer</span>
+                     			<span>Writer</span>
+                     		</span>
+                        </h4>
+                        <p class="text-dark max-width-450 mx-0 my-4 mb-3">I'm an 18 year old helping to build open-source technology to improve lives</p>
+                        <a href="https://open.spotify.com/episode/53usnWSM0ArFsKfFgBTENm?si=DLKhzVtdQt-Zmkfa3tOmpg&fbclid=IwAR3N8qnnmKRv9t5u1KFmDIZ6tsWvGa4wcxcA_0c-2xA7JnRcaTuMx3gjzI4" class="btn mr-4 mb-2 "><span>My Podcast</span></a>
+						<a href="https://dev.to/gizmotronn" class="site-btn btn-line mr-4 mb-2">Dev Talk</a>
+                        <div>
+                            <ul class="list-inline social-links my-4 mt-2">
+                            	<li><a href="https://github.com/gizmotronn"><span class="fa fa-github"></span></a></li>
+								<li><a href="https://www.linkedin.com/in/liam-arbuckle-8bb257188/"><span class="fa fa-linkedin"></span></a></li>
+								<li><a href="https://www.instagram.com/droidology/"><span class="fa fa-instagram"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- intro section end -->
 
-<!--=======================Javascript============================-->
+	<!-- about section start -->
+	<section class="page-section" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<figure class="pic-frame">
+						<img src="img/20201021_183218.jpg" alt="">
+					</figure>
+				</div>
+				<div class="col-lg-7">
+					<h5 class="about-title">HELLO!</h5>
+					<h2 class="about">I'm Liam</h2>
+					<p>I create and design beautiful human-computer interfaces. </p>
+  					<hr>
+                  	<div class="content-info mt-40 mb-40">
+	                 	<div class="row">
+		                    <div class="col-lg-4 col-md-12 col-sm-12 single-info">
+		                       <span>
+		                          Name:
+		                       </span>
+		                       <p>Liam R. Arbuckle</p>
+		                    </div>
+		                    <div class="col-lg-4 col-md-12 col-sm-12 single-info">
+		                       <span>
+		                          Email:
+		                       </span>
+		                       <p><a href="mailto:liam@skinetics.tech">liam@skinetics.tech</a></p>
+		                    </div>
+		                    <div class="col-lg-4 col-md-12 col-sm-12 single-info">
+		                       <span>
+		                          Age:
+		                       </span>
+		                       <p>18</p>
+		                    </div>
+		                 </div>
+		                 <div class="row">
+		                    <div class="col-lg-4 col-md-12 col-sm-12 single-info">
+		                       <span>
+		                          Phone:
+		                       </span>
+		                       <p><a href="tel:+61 481 601 669" class="text-custom">+61 481 601 669</a></p>
+		                    </div>
+		                    <div class="col-lg-4 col-md-12 col-sm-12 single-info">
+		                       <span>
+		                          Job:
+		                       </span>
+		                       <p>Open Source Modder</p>
+		                    </div>
+		                    <div class="col-lg-4 col-md-12 col-sm-12 single-info">
+		                       <span>
+		                          From:
+		                       </span>
+		                       <p>Melbourne</p>
+		                    </div>
+	                 	</div>
+                 	</div><!--
+                 	<a href="#" class="btn mr-4 mb-2 "><span>Dowload CV</span></a>
+					<a href="#" class="site-btn btn-line mr-4 mb-2">Hire Me</a>-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about section end -->
 
-<!--=== Modernizr Min Js ===-->
-<script src="assets/js/modernizr-3.6.0.min.js"></script>
-<!--=== jQuery Min Js ===-->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<!--=== jQuery Migration Min Js ===-->
-<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-<!--=== Popper Min Js ===-->
-<script src="assets/js/popper.min.js"></script>
-<!--=== Bootstrap Min Js ===-->
-<script src="assets/js/bootstrap.min.js"></script>
-<!--=== jquery UI Min Js ===-->
-<script src="assets/js/jquery-ui.min.js"></script>
-<!--=== Plugin Collection Js ===-->
-<script src="assets/js/plugincollection.js"></script>
-<!--=== Isotope Min Js ===-->
-<script src="assets/js/isotope.pkgd.min.js"></script>
+	<!-- skill section start -->
+	<section class="page-section bg-light">
+		<div class="container">
+			<div class="col-lg-6 offset-lg-3 text-center">
+                <h3 class="section-title">My<span>Skills</span></h3>
+                <h3 class="section-title-sub">Skills</h3>
+                <hr class="section-line-border">
+                <p class="section-sub-line">There's many ways I can bring your dream to life</p>
+            </div>
+			<div class="row"> 
+	           <div class="col-md-6">
+	              	<div class="skill-item">
+	                 	<h6>Wordpress & PHP</h6>
+	                 	<span>80%</span>
+	                 	<div class="progress" data-percent="80%">
+	                    	<div class="progress-bar bar-null" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+	                 	</div>
+	              	</div>
+	              	<div class="skill-item">
+	                 	<h6>Bootstrap</h6>
+	                 	<span>90%</span>
+	                 	<div class="progress" data-percent="60%">
+	                    	<div class="progress-bar bar-null" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+	                 	</div>
+	              	</div>
+	              	<div class="skill-item">
+	                 	<h6>Vue.js</h6>
+	                 	<span>70%</span>
+	                 	<div class="progress" data-percent="50%">
+	                    	<div class="progress-bar bar-null" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+	                 	</div>
+	              	</div>
+	           	</div>
+	           	<div class="col-md-6">
+	              	<div class="skill-item">
+	                 	<h6>Unity & C#</h6>
+	                 	<span>75%</span>
+	                 	<div class="progress" data-percent="80%">
+	                    	<div class="progress-bar bar-null" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+	                 	</div>
+	              	</div>
+	              	<div class="skill-item">
+	                 	<h6>Javascript</h6>
+	                 	<span>85%</span>
+	                 	<div class="progress" data-percent="60%">
+	                    	<div class="progress-bar bar-null" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+	                 	</div>
+	              	</div>
+	              	<div class="skill-item">
+	                 	<h6>Flask</h6>
+	                 	<span>65%</span>
+	                 	<div class="progress" data-percent="50%">
+	                    	<div class="progress-bar bar-null" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+	                 	</div>
+	              	</div>
+	           	</div>
+	        </div>
+		</div>
+	</section>
+	<!-- skill section end -->
 
+	<!-- resume section start -->
+	<section class="page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 text-center">
+	                <h3 class="section-title">My<span>Resume</span></h3>
+	                <h3 class="section-title-sub">RESUME</h3>
+	                <hr class="section-line-border">
+	                <p class="section-sub-line"></p>
+            	</div>
+			</div>
+			<div class="row">                                    
+                <div class="col-md-6 m-b-40">
 
-<!--=== Custom Js ===-->
-<script src="assets/js/custom.js"></script>
+					<ul class="timeline">
+				     	<li>
+				         	<h5 class="base-color mb-0">Bachelor of Computing</h5>
+				         	<small class="text-muted ">2021 - 2023</small>
+				         	<p class="py-3">I have been accepted to Curtin University on a triple major in Computer Science, majoring in game design, cybersecurity and software engineering.</p>
+				     	</li>
+				     	<li>
+				         	<h5 class="base-color mb-0">Studied at Perth Modern School</h5>
+				         	<small class="text-muted ">2015 - 2020</small>
+				         	<p class="py-3">I studied at Perth's only academic-selective school for 6 years, winning numerous awards and competitions.</p>
+				     	</li>
+				 	</ul>
+                </div>          
+                <div class="col-md-6 m-b-20">
 
+					<ul class="timeline">
+				     	<li>
+				         	<h5 class="base-color mb-0">Australian Space Design Competition Finalist</h5>
+				         	<small class="text-muted ">2018 - 2020</small>
+				         	<p class="py-3">Specialising in Automation, I led my team to the national finals 3 years in a row.</p>
+				     	</li>
+				     	<li>
+				         	<h5 class="base-color mb-0">Microsoft AI For Good Finalist</h5>
+				         	<small class="text-muted ">2019 - 2020</small>
+				         	<p class="py-3">I've always had an interest in the sustainability aspect of self-driving cars and I wrote papers about this in 2019 and 2020 for Microsoft's challenge.</p>
+				     	</li>
+				 	</ul>
+                </div>   
+				<div class="col-md-6 m-b-20">
+
+					<ul class="timeline">
+				     	<li>
+				         	<h5 class="base-color mb-0">Australian Defence Force Future Innovator</h5>
+				         	<small class="text-muted ">2020</small>
+				         	<p class="py-3">In 2020 the Australian Defence Force nominated me for the Future Innovator Award, which I won due to my work in the open-source ecosystem</p>
+				     	</li>
+				     	<li>
+				         	<h5 class="base-color mb-0">NASA/JPL Space Challenge Finalist</h5>
+				         	<small class="text-muted ">2019/20</small>
+				         	<p class="py-3">Over 6 months I expanded my development team to take on the challenge of training a simulated Mars Rover using Machine Learning</p>
+				     	</li>
+				 	</ul>
+                </div>  
+				<div class="col-md-6 m-b-20">
+
+					<ul class="timeline">
+				     	<li>
+				         	<h5 class="base-color mb-0">Perth Startup Fest</h5>
+				         	<small class="text-muted ">2020</small>
+				         	<p class="py-3">I was invited to help pitch at the Perth Startup Fest in 2020 with We Speak Cyber</p>
+				     	</li>
+				     	<li>
+				         	<h5 class="base-color mb-0">Hardware Technician at Cycliq</h5>
+				         	<small class="text-muted ">2021</small>
+				         	<p class="py-3">I joined the team at Cycliq to help with the debugging and roll-out of their top-quality cameras</p>
+				     	</li>
+				 	</ul>
+                </div>       
+            </div>
+		</div>
+	</section>
+	<!-- resume section end -->
+
+	<!-- services section start -->
+	<section class="page-section bg-light" id="services">
+		<div class="container">
+			<div class="col-lg-6 offset-lg-3 text-center">
+                <h3 class="section-title">My<span>teams</span></h3>
+                <h3 class="section-title-sub">TEAMS</h3>
+                <hr class="section-line-border">
+                <p class="section-sub-line">I work for a range of companies and teams and aid them with constructing human-computer interfaces.</p>
+            </div>
+			<div class="row"> 
+
+				<div class="col-md-4">
+					<div class="inner">
+						<i style="" class="fa fa-television"></i>
+						<div class="title">
+							<h5  class="base-color">Signal Kinetics</h5>
+						</div>
+						<div class="text">
+							<p>2020-Present </br> Machine Learning (Py), Game Development (C#) </br> </br>Full Stack Developer </p> 
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="inner">
+						<i style="" class="fa fa-pencil-square-o"></i>
+						<div class="title">
+							<h5 class="base-color">Cycliq</h5>
+						</div>
+						<div class="text">
+							<p>2021-Present </br> Microcomputing (C++), Web Development (HTML) </br></br> Hardware Technician</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="inner">
+						<i style="" class="fa fa-cog"></i>
+						<div class="title">
+							<h5 class="base-color">We Speak Cyber</h5>
+						</div>
+						<div class="text">
+							<p>2020-Present </br> Web Development (JS) </br></br> Full Stack Developer</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="inner">
+						<i style="" class="fa fa-clone"></i>
+						<div class="title">
+							<h5 class="base-color">Diversity Focus</h5>
+						</div>
+						<div class="text">
+							<p>2020-Present </br> Wordpress (PHP), Web Development (JS) </br></br> Full Stack Developer</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="inner">
+						<i style="" class="fa fa-flag-o"></i>
+						<div class="title">
+							<h5 class="base-color">Odour Solutions</h5>
+						</div>
+						<div class="text">
+							<p>2021-Present </br> Web Development (HTML) </br></br> Full Stack Developer</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="inner">
+						<i style="" class="fa fa-life-ring"></i>
+						<div class="title">
+							<h5 class="base-color">Aurorian Studios</h5>
+						</div>
+						<div class="text">
+							<p>2020-Present </br> Game Development (C#) </br></br> Game Developer</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- service section end -->
+
+	<!-- works section start 
+	<section class="page-section" id="works">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 text-center">
+	                <h3 class="section-title">My<span>Works</span></h3>
+	                <h3 class="section-title-sub">WORKS</h3>
+	                <hr class="section-line-border">
+	                <p class="section-sub-line">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.</p>
+            	</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">			
+					<ul class="portfolio-filter controls">
+						<li class="control" data-filter="all">All</li>
+						<li class="control" data-filter=".web">Web design</li>
+						<li class="control" data-filter=".digital">Digital design</li>
+						<li class="control" data-filter=".rened">3D Renedering</li>
+						<li class="control" data-filter=".brand">Brand Identity</li>
+					</ul>
+				</div>                       
+				<div class="container">
+					<div class="row portfolios-area">
+						<div class="col-lg-4 col-md-6 web">
+							<a href="img/portfolio/1.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/1.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+						<div class="mix col-lg-4 col-md-6 digital">
+							<a href="img/portfolio/2.jpg" class="portfolio-item set-bg " data-setbg="img/portfolio/2.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+						<div class="mix col-lg-4 col-md-6 web">
+							<a href="img/portfolio/3.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/3.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+						<div class="mix col-lg-4 col-md-6 digital">
+							<a href="img/portfolio/4.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/4.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+						<div class="mix col-lg-4 col-md-6 rened">
+							<a href="img/portfolio/5.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/5.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+						<div class="mix col-lg-4 col-md-6 brand">
+							<a href="img/portfolio/6.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/6.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+						<div class="mix col-lg-4 col-md-6 rened">
+							<a href="img/portfolio/7.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/7.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+						<div class="mix col-lg-4 col-md-6 brand">
+							<a href="img/portfolio/8.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/8.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+						<div class="mix col-lg-4 col-md-6 web">
+							<a href="img/portfolio/3.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/3.jpg">
+								<div class="pi-inner">
+									<h2>+ See Project</h2>
+								</div>						
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- works section end -->
+
+	<!-- team section start 
+	<section class="page-section bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 text-center">
+	                <h3 class="section-title">Meet<span>Team</span></h3>
+	                <h3 class="section-title-sub">TEAM</h3>
+	                <hr class="section-line-border">
+	                <p class="section-sub-line">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.</p>
+            	</div>
+			</div>
+
+			<div class="row">
+				<div class="wow fadeInUp col-md-3 col-sm-12" data-wow-delay="0.4s">
+                <div class="team-thumb">
+                    <img src="img/team-1.jpg" class="img-responsive" alt="Team">
+                        <div class="team-overlay">
+                            <h4>David P. Hughley</h4>
+                            <h6>Web Designer</h6>
+                            <div class="team-social">
+                              <ul class="team-social-icon">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-google-plus"></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="wow fadeInUp col-md-3 col-sm-12" data-wow-delay="0.6s">
+                <div class="team-thumb">
+                    <img src="img/team-2.jpg" class="img-responsive" alt="Team">
+                        <div class="team-overlay">
+                            <h4>William C. Salas</h4>
+                            <h6>Digital Marketer</h6>
+                            <div class="team-social">
+                              <ul class="team-social-icon">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-google-plus"></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="wow fadeInUp col-md-3 col-sm-12" data-wow-delay="0.8s">
+                <div class="team-thumb">
+                    <img src="img/team-3.jpg" class="img-responsive" alt="Team">
+                        <div class="team-overlay">
+                            <h4>John J. Martin</h4>
+                            <h6>Graphics Designer</h6>
+                            <div class="team-social">
+                              <ul class="team-social-icon">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-google-plus"></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+              <div class="wow fadeInUp col-md-3 col-sm-12" data-wow-delay="0.8s">
+                <div class="team-thumb">
+                    <img src="img/team-4.jpg" class="img-responsive" alt="Team">
+                        <div class="team-overlay">
+                            <h4>John J. Martin</h4>
+                            <h6>Graphics Designer</h6>
+                            <div class="team-social">
+                              <ul class="team-social-icon">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-google-plus"></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+			</div>
+		</div>
+	</section>
+	<!-- team section end -->
+
+	<!-- blog section start 
+	<section class="page-section" id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 text-center">
+	                <h3 class="section-title">Read<span>Blog</span></h3>
+	                <h3 class="section-title-sub">BLOG</h3>
+	                <hr class="section-line-border">
+	                <p class="section-sub-line">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.</p>
+            	</div>
+			</div>
+			<div class="row">
+				<!-- blog item 
+				<div class="col-md-4">
+					<div class="blog-item">
+						<figure class="thumb">
+							<a href="blog.html"><img src="img/blog/1.jpg" alt=""></a>
+						</figure>
+						<article class="blog-content">
+							<h2><a href="blog.html">Be Your Best Version</a></h2>
+							<div class="blog-meta">By admin | March 29, 2020 | 1 Comments</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl. Vestibulum sollicitudin leo non purus vestibulum placerat.</p>
+							<a href="blog.html" class="read-more">Read More</a>
+						</article>
+					</div>
+				</div>
+				<!-- blog item 
+				<div class="col-md-4">
+					<div class="blog-item">
+						<figure class="thumb">
+							<a href="blog.html"><img src="img/blog/2.jpg" alt=""></a>
+						</figure>
+						<article class="blog-content">
+							<h2><a href="blog.html">5 Tips In UI/UX Web Design</a></h2>
+							<div class="blog-meta">By admin | March 29, 2020 | 0 Comments</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl. Vestibulum sollicitudin leo non purus vestibulum placerat.</p>
+							<a href="blog.html" class="read-more">Read More</a>
+						</article>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blog-item">
+						<figure class="thumb">
+							<a href="blog.html"><img src="img/blog/3.jpg" alt=""></a>
+						</figure>
+						<article class="blog-content">
+							<h2><a href="blog.html">Write Your Dreams</a></h2>
+							<div class="blog-meta">By admin | March 29 2020 | 3 Comments</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl. Vestibulum sollicitudin leo non purus vestibulum placerat. </p>
+							<a href="blog.html" class="read-more">Read More</a>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- blog section end -->
+
+	<!-- contact section start 
+	<section class="page-section bg-light" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 text-center">
+	                <h3 class="section-title">Get In<span>Touch</span></h3>
+	                <h3 class="section-title-sub">CONTACT</h3>
+	                <hr class="section-line-border">
+	                <p class="section-sub-line">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            	</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+	                <div class="contact-detail text-center">
+	                   <div class="icon">
+	                      <i class="fa fa-phone"></i>
+	                   </div>
+	                   <div class="content">
+	                      <h5>Phone</h5>
+	                      <p>+123 456-789-000</p>
+	                   </div>
+	                </div>
+	             </div>
+	             <div class="col-md-4">
+	                <div class="contact-detail text-center">
+	                   <div class="icon">
+	                      <i class="fa fa-envelope"></i>
+	                   </div>
+	                   <div class="content">
+	                      <h5>Email</h5>
+	                      <p>contact@example.com</p>
+	                   </div>
+	                </div>
+	             </div>
+	             <div class="col-md-4">
+	                <div class="contact-detail text-center">
+	                   <div class="icon">
+	                      <i class="fa fa-map"></i>
+	                   </div>
+	                   <div class="content">
+	                      <h5>Location</h5>
+	                      <p>123 West 21th Street, New York NY</p>
+	                   </div>
+	                </div>
+	             </div>
+	        </div>
+	        <div class="row">
+	        	<div class="col-md-12">
+					<form class="contact-form mt-100">
+						<div class="row">
+							<div class="col-md-6">
+								<input type="text" placeholder="Name">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="E-mail">
+							</div>
+							<div class="col-md-12">
+								<input type="text" placeholder="Subject">
+							</div>
+							<div class="col-md-12">
+								<textarea placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="text-center">
+							<button class="btn"><span>Send message</span></button>
+						</div>
+					</form>
+				</div>
+	        </div>
+    	</div>
+	</section>
+	<!-- contact section end -->
+
+	<!-- footer section start -->
+	<footer class="footer-section text-center">
+		<div class="container">
+			<div class="social-links">
+				<a href="https://github.com/gizmotronn"><span class="fa fa-github"></span></a>
+				<a href="https://www.linkedin.com/in/liam-arbuckle-8bb257188/"><span class="fa fa-linkedin"></span></a>
+				<a href="https://www.instagram.com/droidology/"><span class="fa fa-instagram"></span></a>
+			</div>
+			<!-- Copyright -->
+			<div class="copyright">Copyright 2021. All rights reserved</div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+	<!-- Back to top button -->
+    <a id="back-to-top" href="#"><i class="fa fa-chevron-up"></i></a>
+
+	<!-- jQuery -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<!-- Bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Mixitup js -->
+	<script src="js/mixitup.min.js"></script>
+	<!-- Magnific Popup js -->
+	<script src="js/magnific-popup.min.js"></script>
+	<!-- Typed js -->
+	<script src="js/typed.min.js"></script>
+	<!-- Custom js -->
+	<script src="js/custom.js"></script>
 </body>
-
-
-<!-- Mirrored from live.hasthemes.com/html/10/naix-preview/index-agency-creative.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Nov 2020 09:36:29 GMT -->
 </html>
